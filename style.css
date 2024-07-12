@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    font-family: poppins, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(30, 31, 101), black);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+ h2{
+    color: white;
+    font-size: 100px;
+}
+p{
+    color: white;
+    width: 400px;
+    padding: 30px;
+    
+} 
+#container {
+    /* background-image: linear-gradient(red, yellow); */
+    background-image:  linear-gradient(to right, #01022de5,#00000088), url("image/avatar-3.jpg"); 
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 90%;
+    height: 640px;
+}
+#container:hover{
+    background-image:linear-gradient(to right, #01022de5,transparent), url("image/avatar\ 2.webp");
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+}
+button{
+    font-size: 30px;
+    padding: 0px 10px;
+    border-radius: 10px;
+    border: 2px dotted;
+    margin-left: 60px;
+    cursor: ew-resize;
+}
+
+button:hover{
+    background-color: transparent;
+    color: white;
+    border-color: white;
+}
+.footer{
+    font-size: 15px;
+    color: beige;
+    text-align: center;
+    background-color: rgb(44, 44, 102);
+   margin-top: 175px;
+   height: 25px;
+   padding: auto;
+}
